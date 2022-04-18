@@ -8,9 +8,9 @@ import (
 	"github.com/labstack/echo/v4"
 	labstack "github.com/labstack/echo/v4/middleware"
 	"github.com/mikeschinkel/go-only"
+	"github.com/newclarity/go-offstage/git"
+	"github.com/newclarity/go-offstage/util"
 	"github.com/pkg/errors"
-	"github.com/newclarity/rep-go-offstage/git"
-	"github.com/newclarity/rep-go-offstage/util"
 	"net/http"
 	"reflect"
 )

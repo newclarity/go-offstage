@@ -1,6 +1,6 @@
 package git
 
-import gghi "github.com/newclarity/rep-go-offstage/go-github-integration"
+import gghi "github.com/newclarity/go-offstage/go-github-integration"
 
 var FetchGoGithubReference = gghi.FetchReference
 var FetchGoGithubRepositoryContentList = gghi.FetchRepositoryContentList

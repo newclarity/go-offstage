@@ -9,8 +9,8 @@ import (
 import (
 	"bytes"
 	"fmt"
-	"github.com/newclarity/rep-go-offstage/wraperr"
 	"github.com/mikeschinkel/go-only"
+	"github.com/newclarity/go-offstage/wraperr"
 	"io/ioutil"
 	"net/http"
 	"os"

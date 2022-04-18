@@ -2,7 +2,7 @@ package git
 
 import (
 	"github.com/google/go-github/github"
-	gghi "github.com/newclarity/rep-go-offstage/go-github-integration"
+	gghi "github.com/newclarity/go-offstage/go-github-integration"
 )
 
 type ContextPropertyGetter = gghi.ContextPropertyGetter

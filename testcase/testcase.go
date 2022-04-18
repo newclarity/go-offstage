@@ -3,8 +3,8 @@ package testcase
 import (
 	"fmt"
 	"github.com/mikeschinkel/go-only"
-	"github.com/newclarity/rep-go-offstage"
-	"github.com/newclarity/rep-go-offstage/testclient"
+	"github.com/newclarity/go-offstage"
+	"github.com/newclarity/go-offstage/testclient"
 	"net/http"
 )
 

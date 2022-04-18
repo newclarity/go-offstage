@@ -1,6 +1,6 @@
 package gghi
 
-import "github.com/newclarity/rep-go-offstage/wraperr"
+import "github.com/newclarity/go-offstage/wraperr"
 
 var (
 	ErrorBranchNameCannotBeEmpty         = wraperr.New("Branch name cannot be empty for '%s'")

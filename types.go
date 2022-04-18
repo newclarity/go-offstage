@@ -2,7 +2,7 @@ package offstage
 
 import (
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/newclarity/rep-go-offstage/git"
+	"github.com/newclarity/go-offstage/git"
 )
 
 type ContextPropertyGetter = git.ContextPropertyGetter
@@ -17,5 +17,5 @@ type EndpointsConnector interface {
 	SetServer(s *Server)
 }
 
-
-
+type ConfigureFunc = func(*Server)
+type StartFunc = func(ConfigureFunc) *Server

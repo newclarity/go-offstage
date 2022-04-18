@@ -1,6 +1,6 @@
 package util
 
-import werr "github.com/newclarity/rep-go-offstage/wraperr"
+import werr "github.com/newclarity/go-offstage/wraperr"
 
 var (
 	ErrorApplyingTemplate     = werr.New("unable to apply template from %s")

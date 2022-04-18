@@ -1,8 +1,8 @@
 package git
 
 import (
-	"github.com/newclarity/rep-go-offstage/go-github-integration"
-	"github.com/newclarity/rep-go-offstage/wraperr"
+	"github.com/newclarity/go-offstage/go-github-integration"
+	"github.com/newclarity/go-offstage/wraperr"
 )
 
 var (

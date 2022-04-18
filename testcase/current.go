@@ -1,7 +1,7 @@
 package testcase
 
 import (
-	"github.com/newclarity/rep-go-offstage"
+	"github.com/newclarity/go-offstage"
 )
 
 var currentTestCase *TestCase
@@ -50,10 +50,7 @@ func ConfigureServerFunc(args Args) func(s *offstage.Server) {
 	}
 }
 
-type configFunc = func(*offstage.Server)
-type startFunc = func(configFunc) *offstage.Server
-
-func StartTestCaseServer(start startFunc, configure configFunc) {
+func StartTestCaseServer(start offstage.StartFunc, configure offstage.ConfigureFunc) {
 	currentTestCase.Server = start(configure)
 }
 

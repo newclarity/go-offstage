@@ -34,7 +34,7 @@ func (cr *NamedVarsRegexp) StructCapture(obj interface{}, s string) (err error) 
 					cr.String(),
 					r.(*reflect.ValueError))
 			default:
-				err = fmt.Errorf("unable to capture struct '%s'; %#v", r)
+				err = fmt.Errorf("unable to capture struct '%s'; %#v", s, r)
 			}
 			return
 		}
